@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 505px;
+    margin-left: 200px;
+    margin-top: 80px;
+    border-radius: 8px;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    width: 400px;
+    height: 300px;
+    border-radius: 40px;
+    display: flex;
+    background-color: rgb(199, 173, 142, 0.5);
+    align-items: center;
+    justify-content: center;
+    color: #595a5a;
+}.num1, .num2{
+    padding: 5px;
+}
+input{
+    background-color: rgb(185, 201, 215, 0.4);
+    
+}
+button{
+    width: 60px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 8px;
+    margin-left: 180px;
+}
